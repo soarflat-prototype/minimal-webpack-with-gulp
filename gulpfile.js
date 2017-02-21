@@ -17,6 +17,7 @@ gulp.task('webpack', function() {
   return gulp.src(config.src.js)
     .pipe(webpackStream({
       output: {
+        // 出力するファイル名
         filename: 'bundle.js'
       }
     }))
