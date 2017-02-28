@@ -1,5 +1,5 @@
 # minimal-webpack-with-gulp
-gulpでwebpackを利用する最小構成。あまり実用的ではない。
+gulpでwebpackを利用する最小構成。
 
 ## 使いかた
 
@@ -13,7 +13,4 @@ npm install
 gulp webpack
 ```
 
-### ファイルの変更を監視し、変更があればwebpackのビルドを実行する
-```bash
-gulp watch
-```
+watchモードが有効になっているため、ファイルの変更を監視し、変更があればビルドが再実行されます。
